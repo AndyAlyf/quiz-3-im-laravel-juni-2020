@@ -1,5 +1,8 @@
 @extends('layouts.master')
 
 @section('content')
-<img src="{{asset('images/Quiz3_ERD.png')}}" alt="" srcset="">
+<div class="d-flex  my-auto">
+    <img src="{{asset('images/Quiz3_ERD.png')}}" class="mx-auto my-auto">
+</div>
+
 @endsection
